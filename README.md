@@ -1,5 +1,5 @@
-# ENCRYPT PAYLOAD
-    1. run in cmd `node encrypt.js`
+# ENCRYPTION AND DECRYPTION PAYLOAD using JWT
 
-# DECRYPT PAYLOAD
-     run in cmd `node decrypt.js`
+run the below cmd
+    `node app.js`
+

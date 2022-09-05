@@ -8,6 +8,10 @@ let payload = {
     email: 'deepankar.mondal@p360.com',
     phone: '9832500105'
 }
+console.log("--------------PAYLOAD---------------");
+console.log(payload);
 // encrypte the data
 var token = jwt.sign(payload, secret_key);
-console.log(token);
+console.log("Encrypted JWT TOKEN "+token);
+var decryped_data = jwt.verify(token, secret_key);
+console.log("Decrypted JWT TOKEN "+decryped_data);
